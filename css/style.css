@@ -2,8 +2,8 @@ body {
 	margin: 0;
 	align-content: right;
 	background: url(http://i.imgur.com/AKEVPSe.png);
-	color: white;
-	background: #00B5FF;
+	color: black;
+	background: #fff;
 }
 
 body h1 {
@@ -11,21 +11,12 @@ body h1 {
 	font-size: 48px;
 }
 
-
-
-.navbar-brand {
-	font-weight: 10px;
-
-}
-
-
 /* Links inside the navbar */
 .navbar a {
     float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 20px 20px;
+    color: #black;
+    text-align: right;
+    padding: 4px 20px;
     text-decoration: none;
 }
 
@@ -33,9 +24,8 @@ body h1 {
 
 
 footer {
-	
    	bottom:0;
    	width:100%;
    	height:110px;  
-	background-color: #008BFF;
+	background-color: black;
 }
