@@ -5,17 +5,19 @@
 		<title>Jerry Qian</title>
 
 		<meta charset="utf-8">
-    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
-    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"> </script>
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link rel="stylesheet" type="text/css" href="css/gamedev.css">
 	</head>
 
 	<body>
+		<div class="bootstrap-iso">
 		<!-- Navigation bar -->
 		<nav id="topnav" class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
 			<a class="navbar-brand" href="./index.html">
@@ -28,16 +30,25 @@
 
 		  	<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 		    	<div class="navbar-nav ml-auto">
-			      <a class="nav-item nav-link" href="./index.html">Home</a>
-			      <a class="nav-item nav-link active" href="./gamedev.html">Game Dev<span class="sr-only">(current)</span></a>
-			      <a class="nav-item nav-link" href="./hackathons.html">Hackathons</a>
-			      <a class="nav-item nav-link" href="./art.html">Art</a>
+			      <a class="nav-item nav-link" href="./index.html">
+			      	<i class="fa fa-user"></i> About 
+			      	<span class="sr-only">(current)</span></a>
+			      <a class="nav-item nav-link active" href="./gamedev.html">
+			      	<i class="fa fa-gamepad"></i> Game Dev</a>
+			      <a class="nav-item nav-link" href="./hackathons.html">
+			      	
+			      	<i class="fa fa-chevron-left"></i><i class="fa fa-chevron-right"></i> Hackathons</a>
+			      <a class="nav-item nav-link" href="./art.html">
+			      	 <i class="fa fa-paint-brush"></i> Art</a>
 			    </div>
 		  	</div>
 		</nav>
 
+		<div class="jumbotron">
+		  <h1>Jerry Qian</h1> 
+		  <p>This is my website?? Wow very nooice.</p> 
+		</div>
 		<center>
-		<div data-spy="scroll" data-target="#topnav" data-offset="0">
 		<h1 id="about">Game Dev</h1>
 		<p>"Less work is less work" - J. Qian</p>
 
@@ -48,8 +59,7 @@
 		    --><div class="liftoff-block">
 		    	<p>Liftoff<br>stuff</p>
 		    </div>
-		</div>
-	</center>
+		</center>
 
 		<footer>
 			<div class="wrapper">
@@ -61,6 +71,7 @@
 				</nav>
 			</div>
 		</footer>
+	</div>
 	</body>
 	
 </html>
